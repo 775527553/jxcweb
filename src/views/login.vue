@@ -1,5 +1,5 @@
 <template>
-    <!--<el-form  label-position="left" label-width="0px" class="login-container">
+    <el-form  label-position="left" label-width="0px" class="login-container">
     <span class="tool-bar">
     </span>
         <h2 class="title" style="padding-left:22px;" >系统登录</h2>
@@ -13,8 +13,7 @@
             <el-button type="primary" style="width:48%;" @click.native.prevent="reset">重 置</el-button>
             <el-button type="primary" style="width:48%;" @click.native.prevent="login" >登 录</el-button>
         </el-form-item>
-    </el-form>-->
-    <el-button type="primary" style="width:48%;" @click.native.prevent="reset">重 置</el-button>
+    </el-form>
 
 </template>
 
